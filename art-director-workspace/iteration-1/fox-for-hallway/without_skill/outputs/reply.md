@@ -1,0 +1,93 @@
+Here's a fox for your hallway. I don't have an image generator in this session, so this isn't a painting or a photo: I drew it as a vector illustration instead. It's a rust-coloured fox sitting under a moon, framed in a deep-green arch on warm cream. The upside for printing is that vector art stays sharp at any size.
+
+The file is saved at:
+
+`/Users/aroosha/Library/Application Support/Claude/scratch-workspaces/43f76cc7-72a4-449c-b52b-5c1fccb1f276/4e996166-524b-4a14-894b-92f5cea61ef1/scratch-2026-11-18-99f74f/art-director-workspace/iteration-1/fox-for-hallway/without_skill/outputs/fox.svg`
+
+The same code is below if you'd rather paste it into a file named `fox.svg` yourself.
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 2400" role="img" aria-labelledby="fox-title">
+  <title id="fox-title">A fox sitting under a moon, framed in an arch</title>
+  <defs>
+    <clipPath id="tail-shape">
+      <path d="M1060 1890 C1280 1930 1520 1800 1500 1540 C1490 1420 1440 1330 1370 1270 C1385 1400 1340 1530 1250 1610 C1190 1660 1130 1690 1080 1700 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- paper -->
+  <rect width="1800" height="2400" fill="#F3EADA"/>
+
+  <!-- arch: night sky, hill, moon, stars -->
+  <path d="M300 1920 V1000 A600 600 0 0 1 1500 1000 V1920 Z" fill="#233F3A"/>
+  <path d="M300 1790 C650 1690 1050 1700 1500 1820 V1920 H300 Z" fill="#2F5A4C"/>
+  <circle cx="1240" cy="720" r="62" fill="#F3EADA"/>
+  <g fill="#F3EADA">
+    <circle cx="470" cy="700" r="10"/>
+    <circle cx="380" cy="930" r="8"/>
+    <circle cx="400" cy="1250" r="9"/>
+    <circle cx="430" cy="1600" r="10"/>
+    <circle cx="770" cy="500" r="8"/>
+    <circle cx="1120" cy="560" r="7"/>
+    <circle cx="1400" cy="930" r="10"/>
+    <circle cx="1420" cy="1250" r="9"/>
+  </g>
+
+  <!-- fox -->
+  <g transform="translate(-120 20)">
+    <!-- tail with cream tip -->
+    <path d="M1060 1890 C1280 1930 1520 1800 1500 1540 C1490 1420 1440 1330 1370 1270 C1385 1400 1340 1530 1250 1610 C1190 1660 1130 1690 1080 1700 Z" fill="#D9652E"/>
+    <polygon clip-path="url(#tail-shape)" points="1470,1373 1470,1421 1425,1405 1426,1453 1380,1437 1381,1485 1335,1469 1290,1440 1290,1200 1560,1200 1560,1373" fill="#FBF5EA"/>
+
+    <!-- body and chest -->
+    <path d="M900 1080 C700 1150 600 1500 640 1800 Q650 1900 760 1900 H1040 Q1150 1900 1160 1800 C1200 1500 1100 1150 900 1080 Z" fill="#BC4F23"/>
+    <path d="M810 1130 C770 1280 820 1420 900 1500 C980 1420 1030 1280 990 1130 Z" fill="#E8DAC3"/>
+
+    <!-- front legs and dark socks -->
+    <path d="M818 1540 Q851 1512 884 1540 V1900 H800 Q778 1900 783 1878 Z" fill="#D9652E"/>
+    <path d="M982 1540 Q949 1512 916 1540 V1900 H1000 Q1022 1900 1017 1878 Z" fill="#D9652E"/>
+    <path d="M798 1730 H884 V1900 H800 Q778 1900 783 1878 Z" fill="#1F1A17"/>
+    <path d="M1002 1730 H916 V1900 H1000 Q1022 1900 1017 1878 Z" fill="#1F1A17"/>
+
+    <!-- head -->
+    <path d="M680 580 L820 790 Q900 770 980 790 L1120 580 L1160 860 L1220 1020 L1132 1062 L1160 1110 L900 1290 L640 1110 L668 1062 L580 1020 L640 860 Z" fill="#D9652E"/>
+
+    <!-- inner ears -->
+    <polygon points="695,654 772,769 673,808" fill="#1F1A17"/>
+    <polygon points="1105,654 1028,769 1127,808" fill="#1F1A17"/>
+
+    <!-- cheeks -->
+    <path d="M580 1020 Q700 960 790 1010 Q850 1080 866 1200 L900 1290 L640 1110 L668 1062 Z" fill="#FBF5EA"/>
+    <path d="M1220 1020 Q1100 960 1010 1010 Q950 1080 934 1200 L900 1290 L1160 1110 L1132 1062 Z" fill="#FBF5EA"/>
+
+    <!-- eyes -->
+    <path d="M735 935 Q790 915 815 965 Q760 985 735 935 Z" fill="#1F1A17"/>
+    <path d="M1065 935 Q1010 915 985 965 Q1040 985 1065 935 Z" fill="#1F1A17"/>
+    <circle cx="768" cy="942" r="5" fill="#FBF5EA"/>
+    <circle cx="1018" cy="942" r="5" fill="#FBF5EA"/>
+
+    <!-- nose -->
+    <path d="M856 1212 Q900 1194 944 1212 Q938 1262 900 1292 Q862 1262 856 1212 Z" fill="#1F1A17"/>
+  </g>
+</svg>
+```
+
+**Printing**
+
+- **Size:** the proportions are 3:4, so it fits 12 × 16 in, 18 × 24 in and 30 × 40 cm frames without cropping. It won't fill A4/A3 or 50 × 70 cm exactly; tell me the size and I'll re-proportion it.
+- **At home:** open the file in a browser and print. It scales to fit the page. Turn off headers and footers in the print dialog, and use borderless printing if your printer has it, otherwise you get a thin white margin around the cream.
+- **At a print shop:** send the SVG, or a PDF saved from the browser's print dialog. Matte, heavyweight paper suits the flat colours.
+
+**Before you print**
+
+I couldn't preview the rendered image in this session, so open it and look it over first. If anything looks off, tell me what you see and I'll fix it. The colours, the moon and stars, and the orientation are all quick to change.
+
+**If you had a painted or photographic fox in mind**
+
+That needs an image generator. This prompt is a starting point in any of them:
+
+```
+A red fox sitting calmly in a misty autumn birch forest at dawn, soft diffused light, muted rust, cream and sage-green palette, painterly gouache illustration, generous empty space around the fox, vertical 3:4 composition, no text, no border
+```
+
+Generate at the highest resolution offered. An 18 × 24 in print wants about 5400 × 7200 px, so most outputs need upscaling first.
